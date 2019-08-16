@@ -1,0 +1,12 @@
+-cp src
+-D analyzer-optimize
+-D nodejs
+-main Tests
+-js bin/test.js
+-lib mithril
+-lib haxedci
+-lib HaxeContracts
+-lib buddy
+-lib dataclass
+-debug
+

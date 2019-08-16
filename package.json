@@ -1,0 +1,24 @@
+{
+  "name": "Project Name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/app.js",
+  "bin": {
+    "xo": "live.js"
+  },
+  "scripts": {
+    "test": "node bin/test.js",
+    "ci": "nodemon bin/test.js",
+    "server": "http-server -c-1 bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ploxie/[NAME OF REPOSITORY].git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ploxie/[NAME OF REPOSITORY]/issues"
+  },
+  "homepage": "https://github.com/Ploxie/[NAME OF REPOSITORY]#readme"
+}

@@ -1,0 +1,10 @@
+-cp src
+-D analyzer-optimize
+-main Main
+-js bin/app.js
+-lib mithril
+-lib haxedci
+-lib HaxeContracts
+-lib dataclass
+-debug
+
